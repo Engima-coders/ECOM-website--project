@@ -20,16 +20,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/stylish/src/pages/home.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="/ECOM-website--project/home.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/stylish/src/pages/Products.php">Products</a>
+          <a class="nav-link" href="/ECOM-website--project/pages/products.php">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/stylish/src/pages/Contact.php">Contact</a>
+          <a class="nav-link" href="/ECOM-website--project/pages/contacts.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/stylish/src/pages/About.php">About</a>
+          <a class="nav-link" href="/ECOM-website--project/pages/about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ECOM-website--project/pages/seller.php">Seller's Corner</a>
         </li>
       </ul>
       <form class="d-flex">

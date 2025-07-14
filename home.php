@@ -1,6 +1,7 @@
+
 <?php
-require("../components/header.php");
-require("../components/carosal.php");
+require("./header.php");
+require("./carosal.php");
 ?>
 <div class="main-banner">
     <div class="card cart">
@@ -13,12 +14,12 @@ require("../components/carosal.php");
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>
-    <img src="../assets/img/mb.jpg" alt="Banner" class="img-responsive mt-3" style="width:100%">
+    <img src="./img/mb.jpg" alt="Banner" class="img-responsive mt-3" style="width:100%">
 </div>
 <h3 class="p-3 mb-2 bg-primary text-white text-center text-boald">Populer Products</h3>
 <div class="container d-flex justify-content-space-between flex-wrap gap-4">
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-image1.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-image1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -26,7 +27,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-image2.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-image2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -34,7 +35,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-image3.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-image3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -42,7 +43,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-item4.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-item4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -50,7 +51,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-image5.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-image5.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -58,7 +59,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-image6.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-image6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -66,7 +67,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-item7.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-item7.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -74,7 +75,7 @@ require("../components/carosal.php");
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/card-item8.jpg" class="card-img-top" alt="...">
+        <img src="./img/card-item8.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,8 +84,8 @@ require("../components/carosal.php");
     </div>
 </div>
 
-<img src="../assets/img/add.jpg" class="img-responsive" style="width:100%">
+<img src="./img/add.jpg" class="img-responsive" style="width:100%">
 
 <?php
-require("../components/footer.php");
+require("./footer.php");
 ?>
