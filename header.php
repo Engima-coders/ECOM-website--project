@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="/ecom/src/assets/css/index.css">
-<title>Title</title>
+<title>Stylish</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
@@ -35,6 +35,8 @@
           <a class="nav-link" href="/ECOM-website--project/pages/seller.php">Seller's Corner</a>
         </li>
       </ul>
+      <button type="button"class="btn btn-success"style="margin:5px"> <a href="./pages/login.php">Login</a></button>
+      <button type="button" class="btn btn-success" style="margin:5px"><a href="./pages/signup.php">SignUp</a></button>
       <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Search</button>
