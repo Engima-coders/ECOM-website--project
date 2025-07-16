@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="/ecom/src/assets/css/index.css">
-<title>Stylish</title>
+<title>Title</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
@@ -20,27 +20,41 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/ECOM-website--project/home.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="/stylish/src/pages/home.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/ECOM-website--project/pages/products.php">Products</a>
+          <a class="nav-link" href="/stylish/src/pages/Products.php">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/ECOM-website--project/pages/contacts.php">Contact</a>
+          <a class="nav-link" href="/stylish/src/pages/Contact.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/ECOM-website--project/pages/about.php">About</a>
+          <a class="nav-link" href="/stylish/src/pages/About.php">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/ECOM-website--project/pages/seller.php">Seller's Corner</a>
+       <li class="nav-item">
+          <a class="nav-link" href="/stylish/src/pages/admin/index.php">Seller's Corner</a>
         </li>
       </ul>
-      <button type="button"class="btn btn-success"style="margin:5px"> <a href="./pages/login.php">Login</a></button>
-      <button type="button" class="btn btn-success" style="margin:5px"><a href="./pages/signup.php">SignUp</a></button>
-      <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+      <div class="d-flex gap-4">
+          <?php
+          session_start();
+          if (isset($_SESSION["username"])) {
+      
+            $username = $_SESSION["username"];
+            echo '<a href="" class="btn btn-outline-primary text-light fs-5">'.$username.'</a>';
+            echo '<a href="logout.php" class="btn btn-outline-info text-light fs-5">Logout</a>';
+          } 
+         else {
+          ?>
+       <a href="/stylish/index.php" class="btn btn-outline-success" type="submit">Login</a>
+      
+       <a href="/stylish/src/pages/Signup.php"><button class="btn btn-outline-success" type="submit">Sign Up</button></a>
+       <form class="d-flex">
+       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success" type="submit">Search</button>
+       </form>
+       <?php }?>
+     </div>
     </div>
   </div>
 </nav>
