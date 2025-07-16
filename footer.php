@@ -1,61 +1,129 @@
-<footer class="bd-footer py-5 mt-5 bg-light">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-lg-3 mb-3">
-        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-          <span class="fs-5">Bootstrap</span>
-        </a>
-        <ul class="list-unstyled small text-muted">
-          <li class="mb-2">Designed and built with all the love in the world by the <a href="/docs/5.0/about/team/">Bootstrap team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
-          <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
-          <li class="mb-2">Currently v5.0.2.</li>
-          <li class="mb-2">Analytics by <a href="https://usefathom.com/ref/ADZSBE" target="_blank" rel="noopener">Fathom</a>.</li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<title>Footer</title>
+<style>
+  footer a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer ul li {
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 768px) {
+    footer {
+      padding: 30px 15px;
+    }
+
+    footer > div:first-child {
+      flex-direction: column;
+    }
+
+    footer div[style*="justify-content: space-between;"] {
+      flex-direction: column;
+    }
+
+    footer div[style*="display: flex; gap: 15px;"] {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<footer style="background-color: #fff; border-top: 1px solid #ddd; font-family: Arial, sans-serif; padding: 40px 20px;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; max-width: 1200px; margin: auto;">
+    
+    <div style="flex: 1 1 300px; max-width: 350px;">
+      <h2 style="color: red; font-size: 36px; font-weight: bold; margin: 0;">STYLISH CLUB</h2>
+      <h2 style="color: red; font-size: 36px; font-weight: bold; margin: 0;">WILL SURPRISE YOU</h2>
+      <p style="margin: 15px 0 5px;">Benefits and plenty of surprises are waiting for you!</p>
+      <p>Sign up now</p>
+      <a href="/stylish/src/pages/Products.php" style="display: inline-block; background-color: red; color: white; padding: 12px 25px; font-weight: bold; text-decoration: none;">Discover more</a>
+    </div>
+
+    <div style="flex: 2 1 600px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+      
+      <div style="min-width: 140px;">
+        <h4 style="color: gray;">SUPPORT</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Chat with us</a></li>
+          <li><a href="#">FAQ</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-        <h5>Links</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="/">Home</a></li>
-          <li class="mb-2"><a href="/docs/5.0/">Docs</a></li>
-          <li class="mb-2"><a href="/docs/5.0/examples/">Examples</a></li>
-          <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
-          <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
-          <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap">Swag Store</a></li>
+
+      <div style="min-width: 180px;">
+        <h4 style="color: gray;">EXCLUSIVE SERVICE</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="#">Check / Return Order</a></li>
+          <li><a href="#">Invite Stylish Club On Wheels</a></li>
+          <li><a href="#">COVID Safety Guidelines</a></li>
+          <li><a href="#">Stylish Loyalty</a></li>
+          <li><a href="#">Stylish Franchise</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 mb-3">
-        <h5>Guides</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="/docs/5.0/getting-started/">Getting started</a></li>
-          <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">Starter template</a></li>
-          <li class="mb-2"><a href="/docs/5.0/getting-started/webpack/">Webpack</a></li>
-          <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">Parcel</a></li>
+
+      <div style="min-width: 180px;">
+        <h4 style="color: gray;">COMPANY</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Stylish Worldwide</a></li>
+          <li><a href="#">The Stylish Company</a></li>
+          <li><a href="#">CSR</a></li>
+          <li><a href="#">Awards & Recognition</a></li>
+          <li><a href="#">Become Our Partner</a></li>
+          <li><a href="#">Careers</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 mb-3">
-        <h5>Projects</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-lg-2 mb-3">
-        <h5>Community</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
-          <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
-          <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
-          <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+
+      <div style="min-width: 180px;">
+        <h4 style="color: gray;">LEGALS</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Press Release</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Whistle Blow Policy</a></li>
+          <li><a href="#">POSH Policy</a></li>
+          <li><a href="#">Investor Relations</a></li>
         </ul>
       </div>
     </div>
   </div>
+
+  <div style="border-top: 1px solid #ddd; margin-top: 40px; padding-top: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; max-width: 1200px; margin-left: auto; margin-right: auto;">
+    <div style="display: flex; gap: 20px; font-size: 14px;">
+      <a href="#">📍 FIND A STORE</a>
+      <a href="#">🌐 INDIA | ENGLISH</a>
+    </div>
+    <div style="display: flex; gap: 15px;">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fas fa-times"></i></a>
+    </div>
+  </div>
 </footer>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
