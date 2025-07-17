@@ -2,19 +2,24 @@
 require("../components/header.php");
 require("../components/carosal.php");
 ?>
-<div class="main-banner">
-    <div class="card cart">
-
+  <div class="main-banner position-relative text-white">
+    <img src="/stylish/src/assets/img/mb.jpg" alt="Banner" class="img-fluid w-100">
+    
+    <div class="card cart position-absolute top-50 start-10 translate-middle-y bg-dark bg-opacity-75 text-white p-4" style="max-width: 500px;">
         <div class="card-body">
-            <h5 class="card-title text-white text-bold">Special title treatment</h5>
-            <p class="card-text text-white">With supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text text-white w-50">A functional site has a better opportunity to convert than “Speed is a feature and key to conversion. Other design features aren’t inherently bad; the danger is [when they slow] your website to a crawl.” 
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title fw-bold">Why Stylish?</h5>
+            <p>Enjoy exclusive access to:</p>
+          <ul>
+              <li>Special discounts on fashionwear & footwear</li>
+              <li>Reward points on every order</li>
+              <li>Personalized offers</li>
+              <li>Early access to product launches</li>
+          </ul>
+            <a href="/stylish/src/pages/About.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
-    <img src="/stylish/src/assets/img/mb.jpg" alt="Banner" class="img-responsive mt-3" style="width:100%">
 </div>
+
 <h3 class="p-3 mb-2 bg-primary text-white text-center text-boald">Populer Products</h3>
 <div class="container d-flex justify-content-space-between flex-wrap gap-4">
     <div class="card" style="width: 18rem;">
