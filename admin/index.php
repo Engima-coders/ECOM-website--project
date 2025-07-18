@@ -17,6 +17,24 @@ include("../../../dbcom/conn.php");
   .wishlist {
     margin:10px;
   }
+
+  .wishlist h2 {
+      font-size: 32px;
+      color: #e30613;
+      margin-bottom: 10px;
+    }
+
+    .wishlist h2 span {
+      color: #333;
+      font-weight: 400;
+    }
+
+    .wishlist h4{
+      font-size: 28px;
+      color: #0666e3ff;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
   
 table {
   width: 100%;
@@ -49,10 +67,9 @@ table td img {
 </head>
 <body>
   <div class= "wishlist">
-<h1>Welcome to Stylish </h1>
-<h1>Seller's Corner</h1>
-<h3>My Products</h3>
+<h2>Welcome to <span>Seller's <strong>Corner</strong></span></h2>
 <a href="/stylish/src/pages/admin/add.php"><button type="button" class="btn btn-success">Add Product</button></a>
+<h4>My Products :</h4>
 
 <table class="table">
   <thead class="table-light">
