@@ -1,6 +1,5 @@
 <?php
 require("../components/header.php");
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,9 +24,15 @@ require("../components/header.php");
       border-radius: 10px;
     }
 
-    h1 {
+    h2 {
       text-align: center;
+      font-size: 32px;
+      color: #e30613;
+    }
+
+    h2 span {
       color: #333;
+      font-weight: 400;
     }
 
     .contact-info {
@@ -69,36 +74,36 @@ require("../components/header.php");
   </style>
 </head>
 <body>
-
-<div class="container">
-  <h1>Contact Us</h1>
-
-  <div class="contact-info">
+ <div class="container">
+  <h2>Contact <span><strong>Us</strong></span></h2>
+   <div class="contact-info">
     <p><strong>Phone:</strong> ‪+91-9876543210‬</p>
-    <p><strong>Email:</strong> support@eshop.com</p>
+    <p><strong>Email:</strong> stylish@gmail.com</p>
     <p><strong>Address:</strong> 123 Market Street, Kolkata, West Bengal, India</p>
   </div>
-
-  <form>
+   <form onsubmit="return validateForm()">
     <label for="name">Your Name</label>
     <input type="text" id="name" placeholder="Enter your name" required>
 
     <label for="email">Your Email</label>
     <input type="email" id="email" placeholder="Enter your email" required>
 
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" placeholder="Enter subject" required>
+   <label for="phone">Contact Number</label>
+   <input type="tel" id="phone" placeholder="Enter your phone number" required>
 
     <label for="message">Message</label>
     <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
 
     <button type="submit">Send Message</button>
   </form>
+    <script>
+    function validateForm() {
+      alert("Form submitted successfully!");
+    }
+  </script>
 </div>
-
 </body>
 </html>
-
 <?php
 require("../components/footer.php");
 ?>
