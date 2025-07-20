@@ -27,7 +27,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">WOMEN WEAR</h5>
             <p class="card-text">Elegance personified in every stitch. Find your perfect outfit and shine with confidence!</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -35,7 +35,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">MEN WEAR</h5>
             <p class="card-text">Sharp, sleek, and stylish. Elevate your wardrobe with our latest collection for men.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -43,7 +43,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">KIDS WEAR</h5>
             <p class="card-text">Playful, colorful, and oh-so-cute. Dress your little ones in the comfiest and trendiest outfits.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -51,7 +51,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">FOOT WEAR</h5>
             <p class="card-text">Step into style and comfort. From sneakers to heels, find the perfect fit for your every step.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -59,7 +59,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">ORNAMENTS</h5>
             <p class="card-text">Adorn yourself with elegance and sophistication. Our ornaments add a touch of glamour to any outfit.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -67,7 +67,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">WATCH</h5>
             <p class="card-text">Time is precious, and so is style. Accessorize with our elegant and precise timepieces.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -75,7 +75,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">TOYS</h5>
             <p class="card-text">Imagination knows no bounds. Spark creativity and joy with our wide range of fun and educational toys.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -83,7 +83,7 @@ require("../components/carosal.php");
         <div class="card-body">
             <h5 class="card-title">COSMETICS</h5>
             <p class="card-text">Unleash your inner beauty. Discover our range of cosmetics that enhance your natural glow and confidence.</p>
-            <a href="#" class="btn btn-primary">Click for more!</a>
+            <a href="/stylish/src/pages/Products.php" class="btn btn-primary">Click for more!</a>
         </div>
     </div>
 </div>
