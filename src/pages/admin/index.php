@@ -91,7 +91,7 @@ table td img {
       <td><?= $row['id']; ?></td>
       <td><?= $row['name']; ?></td>
       <td><?= $row['des']; ?></td>
-      <td>$<?= $row['price']; ?></td>
+      <td>₹<?= $row['price']; ?></td>
       <td><img src="uploads/<?= $row['img']; ?>" width="60" height="60"></td>
       <td>
         <a href="edit.php?id=<?= $row['id']; ?>" class="btn btn-warning btn-sm">Edit</a>
