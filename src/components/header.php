@@ -31,9 +31,6 @@
         <li class="nav-item">
           <a class="nav-link" href="/stylish/src/pages/About.php">About</a>
         </li>
-       <li class="nav-item">
-          <a class="nav-link" href="/stylish/src/pages/admin/index.php">Seller's Corner</a>
-        </li>
       </ul>
       <div class="d-flex gap-4">
           <?php
